@@ -19,9 +19,9 @@ public class DBUtil {
      * password 数据库密码
      */
     private static final String driverName = "com.mysql.cj.jdbc.Driver";
-    private static final String url = "jdbc:mysql://rm-bp1eb34u9vk19ll3vao.mysql.rds.aliyuncs.com:3306/xinguan?serverTimezone=Asia/Shanghai";
-    private static final String username = "xinguan";
-    private static final String password = "Xinguan1215";
+    private static final String url = "jdbc:mysql:///xinguan?serverTimezone=Asia/Shanghai";
+    private static final String username = "";
+    private static final String password = "";
 
     //注册驱动，使用静态块，只需注册一次
     static {
